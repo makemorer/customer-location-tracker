@@ -39,9 +39,9 @@ The project structure below:
 ### `├───routes`
 ###     `├───Users.js`
 ### `├───index.js`
-*
+* ... *
 
-    ## Setup Instructions
+    # Setup Instructions
     1. create two seperate folders and name the "client" and "server"
     2. traverse into the "client" folder and create react-app using command npx create-react-app .
     3. Install all dependencies listed above to get on with the design of the UI and the basic functionality
