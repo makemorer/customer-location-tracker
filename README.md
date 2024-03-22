@@ -32,16 +32,16 @@ The project structure below:
 
 ### `└───server`
 ### `├───config`
-###     `├───config.js`
+###     `├───config.json`
 ### `├───models`
 ###     `├───index.js`
 ###     `├───Users.js`
 ### `├───routes`
 ###     `├───Users.js`
 ### `├───index.js`
+*
 
-
-    # Setup Instructions
+    ## Setup Instructions
     1. create two seperate folders and name the "client" and "server"
     2. traverse into the "client" folder and create react-app using command npx create-react-app .
     3. Install all dependencies listed above to get on with the design of the UI and the basic functionality
@@ -63,7 +63,7 @@ The project structure below:
     # Using WampServer or XampServer or MySQL Workbench
     1. Launch the above mention software in order to create database with any name of your choice. If you do not have the aforementioned software, you can make search for any of it and          download.
     2. Do no create the tables. The tables will be generated automatically using our models which will defined and create each tables and it fields.
-    3. Enter the database name in the config.js file at the development section. 
+    3. Enter the database name in the config.json file at the development section. 
     4. Create your model and as it pertains to this task, a Users model is created with the following fields: 
         - ### `fullname`
         - ### `email address`
